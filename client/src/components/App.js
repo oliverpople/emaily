@@ -9,10 +9,9 @@ const SurveyNew = () => <h2> SurveyNew </h2>;
 const Landing = () => <h2> Landing </h2>;
 
 class App extends Component {
-  ComponentDidMount() {
-    this.props.fetchUser();
-  }
-
+	componentDidMount() {
+		this.props.fetchUser();
+	}
 
 	render() {
 		return (
@@ -30,4 +29,4 @@ class App extends Component {
 	}
 }
 
-export default connect(null, actions)App;
+export default connect(null, actions)(App);
