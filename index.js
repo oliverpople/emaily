@@ -26,8 +26,8 @@ require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app);
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/buld"));
   const path = require("path");
+  app.use(express.static(path.join(_dirname, "client/buld")));
   app.get("*", (rew, res) => {
     res.sendFile(path.resolve(_dirname, "client", "build", "index.html"));
   });
