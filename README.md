@@ -17,14 +17,21 @@ $ cd emaily/client
 $ npm i
 ```
 
-To run Express server with nodemon use the following commands in a new tab:
+To run Express server and React add concurrent use the following commands:
+
+```
+$ cd emaily
+$ npm run dev
+```
+
+To run Express server independently use the following commands in a new tab:
 
 ```
 $ cd emaily
 $ npm run server
 ```
 
-To run client side react app use the following commands in a seperate tab:
+To run client side react app independently the following commands in a seperate tab:
 
 ```
 $ cd emaily/client
