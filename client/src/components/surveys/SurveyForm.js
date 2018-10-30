@@ -55,6 +55,6 @@ function validate(values) {
 }
 
 export default reduxForm({
-  validate: validate,
+  validate,
   form: "surveyForm"
 })(SurveyForm);
