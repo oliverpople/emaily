@@ -50,6 +50,9 @@ function validate(values) {
   if (!validate.title) {
     errors.title = "You must provide a title";
   }
+  if (!validate.subject) {
+    errors.title = "You must provide a subject";
+  }
 
   return errors;
 }
