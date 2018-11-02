@@ -15,7 +15,7 @@ module.exports = app => {
   });
 
   app.post("/api/surveys/webhooks", (req, res) => {
-    const event = _.map(req.body, ({ email, url }) => {
+    const events = _.map(req.body, ({ email, url }) => {
       const pathname = new URL(url).pathname;
       const p = new Path("/api/surveys/:survyeId/:choice");
       const match = p.test(pathname);
@@ -28,7 +28,7 @@ module.exports = app => {
       }
     });
 
-    console.log(event);
+    const compactEvents = _.compact(events);
   });
 
   app.post("/api/surveys", requireLogin, requireCredits, async (req, res) => {
