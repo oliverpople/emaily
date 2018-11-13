@@ -42,12 +42,14 @@ once the app successfully compiled it should automatically open in your default 
 
 ## Dependencies
 
-[mLab][stripe]
-[Google Oauth][sendgrid]
+[mLab](https://docs.mlab.com/)
+[stripe](https://stripe.com/docs/api)
+[Google Oauth](https://developers.google.com/api-client-library/javascript/features/authentication)
+[sendgrid](https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/)
 
 ## TODO:
 
-Set up SendGrid API and complete the last few sections of the course:
-
-- Currently awaiting Sendgrid support team unlock my account as it was flagged when I said I only wanted it for educational purposes.
-- Add links to dependeny list.
+- Improve UI styling.
+- Allow users to delete surveys that have been created.
+- Allow users to specify the 'from' field on survey emails.
+- Allow client side sorting of Surveys.
