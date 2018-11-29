@@ -17,7 +17,7 @@ $ cd emaily/client
 $ npm i
 ```
 
-To run Express server and React add concurrent use the following commands:
+To run Express server and React app concurrent use the following commands:
 
 ```
 $ cd emaily
@@ -31,7 +31,7 @@ $ cd emaily
 $ npm run server
 ```
 
-To run client side react app independently the following commands in a seperate tab:
+To run client side react app independently the following commands in a separate tab:
 
 ```
 $ cd emaily/client
