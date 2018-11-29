@@ -2,19 +2,12 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": {
-    "auth/google": {
-      "target": "http://localhost:5000"
-    },
-    "api/*": {
-      "target": "http://localhost:5000"
-    }
-  },
   "dependencies": {
     "ajv": "^6.6.1",
     "axios": "^0.18.0",
     "exec-sh": "^0.3.2",
     "form": "^0.2.4",
+    "http-proxy-middleware": "^0.19.1",
     "materialize-css": "^1.0.0",
     "merge": "^1.2.1",
     "react": "^16.4.0",
