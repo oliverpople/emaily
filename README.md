@@ -42,10 +42,10 @@ once the app successfully compiled it should automatically open in your default 
 
 ## Dependencies
 
-[mLab](https://docs.mlab.com/)
-[stripe](https://stripe.com/docs/api)
-[Google Oauth](https://developers.google.com/api-client-library/javascript/features/authentication)
-[sendgrid](https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/)
+[mLab](https://docs.mlab.com/)  
+[stripe](https://stripe.com/docs/api)  
+[Google Oauth](https://developers.google.com/api-client-library/javascript/features/authentication)  
+[sendgrid](https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/)  
 
 ## TODO:
 
