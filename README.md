@@ -52,3 +52,7 @@ once the app successfully compiled it should automatically open in your default 
 - Allow users to delete surveys that have been created.
 - Allow users to specify the 'from' field on survey emails.
 - Allow client side sorting of Surveys.
+
+Emaily is the product of Stephen Grider's Full Stack React course: https://github.com/StephenGrider/FullstackReactCode
+
+
