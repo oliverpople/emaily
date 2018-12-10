@@ -1,6 +1,6 @@
 # Emaily
 
-Emaily is a web app for creating, sending and tracking email surveys. Emaily is the product of Stephen Grider's Full Stack React course: https://github.com/StephenGrider/FullstackReactCode
+Emaily is a web app for creating, sending and tracking email surveys. 
 
 # Dev Cheat Sheet
 
